@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Decorada</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: url('https://pm1.aminoapps.com/6808/9abf5435e5c6c32455d15bd85bbe4a76a5f2e120v2_hq.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Alineación hacia arriba */
+            min-height: 100vh;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            margin-top: 20px; /* Espacio superior */
+        }
+        h1 {
+            color: #333;
+        }
+        .small-image {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .small-image-1 { top: 10px; left: 10px; }
+        .small-image-2 { top: 10px; right: 10px; }
+        .small-image-3 { bottom: 10px; left: 10px; }
+        .small-image-4 { bottom: 10px; right: 10px; }
+        @media (max-width: 768px) {
+            .small-image {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        .questions {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: left;
+        }
+        .questions h2 {
+            text-align: center;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://preview.redd.it/sn4addsohkw41.jpg?auto=webp&s=d613f1e4b1af6ecae3ae5f37f4f5230a19f3ba13" alt="Imagen pequeña 1" class="small-image small-image-1">
+    <img src="https://th.bing.com/th/id/OIP.KPg0uWAiQbXn0wfkVOGF5wAAAA?rs=1&pid=ImgDetMain" alt="Imagen pequeña 2" class="small-image small-image-2">
+    <img src="https://external-preview.redd.it/vrway0EnaAyDDpP9zkiwbCkhVdV832pnz219GRv43wg.jpg?auto=webp&s=93bcb3909c36a2e157c883e4cc6038a841214ff0" alt="Imagen pequeña 3" class="small-image small-image-3">
+    <img src="https://i.pinimg.com/280x280_RS/8b/e0/24/8be0242905405fbe34a98be8deb7e4b5.jpg" alt="Imagen pequeña 4" class="small-image small-image-4">
+
+    <div class="container">
+        <h1>ENTREVISTA DEL GRINGO MAMÓN</h1>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/hbt266u9ZPE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="questions">
+            <h2>Preguntas</h2>
+            <p>Where are you from?</p>
+            <p>What is your name?</p>
+            <p>Are you visiting or do you live in Mexico?</p>
+            <p>What did you like about Mexico to come here?</p>
+            <p>Is life in Mexico cheap or expensive?</p>
+            <p>Which places in Mexico do you know?</p>
+            <p>What do you think of Mexican culture and gastronomy?</p>
+            <p>What do you think about education in Mexico?</p>
+            <p>Esta entrevista se le hice a un excompañero que ya conosco de hace como 4 años,es una persona de nacionlidad canadience pero por causas personales esta viviendo en mexico,esta estudiando en "La salle" y apenes tuve la oportunidad de conocerlo por esta pequeña entrevista q le hice </p>
+        </div>
+    </div>
+</body>
+</html>
